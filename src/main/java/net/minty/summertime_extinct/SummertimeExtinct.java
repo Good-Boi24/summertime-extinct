@@ -1,5 +1,6 @@
 package net.minty.summertime_extinct;
 
+import net.minty.summertime_extinct.item.ModItems;
 import net.minty.summertime_extinct.Config;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -27,6 +28,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minty.summertime_extinct.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -41,6 +43,8 @@ public class SummertimeExtinct
     public SummertimeExtinct(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -60,7 +64,9 @@ public class SummertimeExtinct
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.DNA_BOTTLE);
+        }
     }
 
     @SubscribeEvent
