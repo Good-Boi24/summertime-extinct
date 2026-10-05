@@ -66,6 +66,7 @@ public class SummertimeExtinct
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DNA_BOTTLE);
+            event.accept(ModItems.FOSSIL_DEINOCHEIRUS);
         }
     }
 
