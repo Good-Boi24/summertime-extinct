@@ -1,5 +1,8 @@
 {
     "item.summertime_extinct.dna_bottle": "DNA Bottle",
+    
     "item.summertime_extinct.fossil_deinocheirus": "Claw Fossil",
+    "item.summertime_extinct.fossil_shonisaurus": "Scleral Ring Fossil",
+
     "block.summertime_extinct.centrifuge": "Centrifuge"
 }
