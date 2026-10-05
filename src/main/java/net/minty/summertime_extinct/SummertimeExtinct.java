@@ -28,7 +28,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.minty.summertime_extinct.item.ModItems;
+import net.minty.summertime_extinct.block.ModBlocks;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -45,6 +45,7 @@ public class SummertimeExtinct
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -67,6 +68,7 @@ public class SummertimeExtinct
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DNA_BOTTLE);
             event.accept(ModItems.FOSSIL_DEINOCHEIRUS);
+            event.accept(ModBlocks.CENTRIFUGE);
         }
     }
 
