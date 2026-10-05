@@ -3,6 +3,9 @@
     
     "item.summertime_extinct.fossil_deinocheirus": "Claw Fossil",
     "item.summertime_extinct.fossil_shonisaurus": "Scleral Ring Fossil",
+    "item.summertime_extinct.fossil_spinosaurus": "Neural Spine Fossil",
+    "item.summertime_extinct.fossil_pelagornis": "Toothed Beak Fossil", 
+    "item.summertime_extinct.fossil_hatzegopteryx": "Sturdy Neck Fossil",
 
     "block.summertime_extinct.centrifuge": "Centrifuge"
 }

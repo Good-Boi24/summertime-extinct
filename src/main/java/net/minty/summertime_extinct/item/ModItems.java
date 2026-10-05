@@ -17,6 +17,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FOSSIL_SHONISAURUS = ITEMS.register("fossil_shonisaurus",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FOSSIL_SPINOSAURUS = ITEMS.register("fossil_spinosaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FOSSIL_PELAGORNIS = ITEMS.register("fossil_pelagornis",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FOSSIL_HATZEGOPTERYX = ITEMS.register("fossil_hatzegopteryx",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
