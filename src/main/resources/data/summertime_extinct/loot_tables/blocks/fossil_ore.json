@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.05
+                    }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "summertime_extinct:fossil_deinocheirus"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.05
+                    }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "summertime_extinct:fossil_shonisaurus"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.05
+                    }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "summertime_extinct:fossil_spinosaurus"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.05
+                    }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "summertime_extinct:fossil_pelagornis"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                    {
+                      "condition": "minecraft:random_chance",
+                      "chance": 0.05
+                    }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "summertime_extinct:fossil_hatzegopteryx"
+            },
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:cobblestone"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "summertime_extinct:blocks/fossil_ore"
+}
