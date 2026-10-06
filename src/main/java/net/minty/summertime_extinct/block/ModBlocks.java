@@ -28,6 +28,8 @@ public class ModBlocks {
 
         public static final RegistryObject<Block> CENTRIFUGE = registerBlock("centrifuge",
                 () -> new Block(Block.Properties.copy(Blocks.IRON_BLOCK)));
+        public static final RegistryObject<Block> FOSSIL_ORE = registerBlock("fossil_ore",
+                () -> new Block(Block.Properties.copy(Blocks.IRON_ORE)));
 
 
 

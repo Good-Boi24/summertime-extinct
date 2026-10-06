@@ -7,5 +7,6 @@
     "item.summertime_extinct.fossil_pelagornis": "Toothed Beak Fossil", 
     "item.summertime_extinct.fossil_hatzegopteryx": "Sturdy Neck Fossil",
 
-    "block.summertime_extinct.centrifuge": "Centrifuge"
+    "block.summertime_extinct.centrifuge": "Centrifuge",
+    "block.summertime_extinct.fossil_ore": "Fossil Ore"
 }
