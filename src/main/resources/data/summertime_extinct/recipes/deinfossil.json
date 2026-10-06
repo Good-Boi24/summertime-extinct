@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "minecraft:bone"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "item": "summertime_extinct:fossil_deinocheirus",
+        "count": 1
+    }
+}
