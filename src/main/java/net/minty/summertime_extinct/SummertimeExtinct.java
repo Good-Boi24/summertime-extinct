@@ -74,6 +74,7 @@ public class SummertimeExtinct
             event.accept(ModItems.FOSSIL_HATZEGOPTERYX);
             event.accept(ModBlocks.FOSSIL_ORE);
             event.accept(ModBlocks.CENTRIFUGE);
+            event.accept(ModBlocks.FEEDER);
         }
     }
 

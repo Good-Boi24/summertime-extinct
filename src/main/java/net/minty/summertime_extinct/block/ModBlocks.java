@@ -9,17 +9,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minty.summertime_extinct.item.ModItems;
-import net.minty.summertime_extinct.SummertimeExtinct;
-import net.minty.summertime_extinct.item.ModItems;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
+import net.minty.summertime_extinct.block.custom.FeederBlock;
 
 public class ModBlocks {
 
@@ -30,7 +22,8 @@ public class ModBlocks {
                 () -> new Block(Block.Properties.copy(Blocks.IRON_BLOCK)));
         public static final RegistryObject<Block> FOSSIL_ORE = registerBlock("fossil_ore",
                 () -> new Block(Block.Properties.copy(Blocks.IRON_ORE)));
-
+        public static final RegistryObject<Block> FEEDER = registerBlock("feeder",
+                () -> new FeederBlock(Block.Properties.copy(Blocks.IRON_BLOCK)));
 
 
         private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
