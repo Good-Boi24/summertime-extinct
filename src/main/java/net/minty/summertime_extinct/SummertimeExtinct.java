@@ -67,7 +67,11 @@ public class SummertimeExtinct
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.DNA_BOTTLE);
+            event.accept(ModItems.DNA_DEINOCHEIRUS);
+            event.accept(ModItems.DNA_SHONISAURUS);
+            event.accept(ModItems.DNA_SPINOSAURUS);
+            event.accept(ModItems.DNA_PELAGORNIS);
+            event.accept(ModItems.DNA_HATZEGOPTERYX);
             event.accept(ModItems.MANGO);
             event.accept(ModItems.FOSSIL_DEINOCHEIRUS);
             event.accept(ModItems.FOSSIL_SHONISAURUS);

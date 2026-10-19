@@ -11,7 +11,15 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, SummertimeExtinct.MODID);
 
-    public static final RegistryObject<Item> DNA_BOTTLE = ITEMS.register("dna_bottle",
+    public static final RegistryObject<Item> DNA_DEINOCHEIRUS = ITEMS.register("dna_deinocheirus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DNA_SHONISAURUS = ITEMS.register("dna_shonisaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DNA_SPINOSAURUS = ITEMS.register("dna_spinosaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DNA_HATZEGOPTERYX = ITEMS.register("dna_hatzegopteryx",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DNA_PELAGORNIS = ITEMS.register("dna_pelagornis",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MANGO = ITEMS.register("mango",
             () -> new Item(new Item.Properties().food(ModFoods.MANGO)));

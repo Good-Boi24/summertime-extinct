@@ -1,5 +1,10 @@
 {
-    "item.summertime_extinct.dna_bottle": "DNA Bottle",
+    "item.summertime_extinct.dna_deinocheirus": "Deinocheirus DNA",
+    "item.summertime_extinct.dna_shonisaurus": "Shonisaurus DNA",
+    "item.summertime_extinct.dna_spinosaurus": "Spinosaurus DNA",
+    "item.summertime_extinct.dna_pelagornis": "Pelagornis DNA", 
+    "item.summertime_extinct.dna_hatzegopteryx": "Hatzegopteryx DNA",
+    
     "item.summertime_extinct.mango": "Mango",
     
     "item.summertime_extinct.fossil_deinocheirus": "Claw Fossil",
