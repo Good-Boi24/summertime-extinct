@@ -72,12 +72,21 @@ public class SummertimeExtinct
             event.accept(ModItems.DNA_SPINOSAURUS);
             event.accept(ModItems.DNA_PELAGORNIS);
             event.accept(ModItems.DNA_HATZEGOPTERYX);
+
             event.accept(ModItems.MANGO);
+
             event.accept(ModItems.FOSSIL_DEINOCHEIRUS);
             event.accept(ModItems.FOSSIL_SHONISAURUS);
             event.accept(ModItems.FOSSIL_SPINOSAURUS);
             event.accept(ModItems.FOSSIL_PELAGORNIS);
             event.accept(ModItems.FOSSIL_HATZEGOPTERYX);
+
+            event.accept(ModItems.CRUSHEDFOSSIL_DEINOCHEIRUS);
+            event.accept(ModItems.CRUSHEDFOSSIL_SHONISAURUS);
+            event.accept(ModItems.CRUSHEDFOSSIL_SPINOSAURUS);
+            event.accept(ModItems.CRUSHEDFOSSIL_PELAGORNIS);
+            event.accept(ModItems.CRUSHEDFOSSIL_HATZEGOPTERYX);
+
             event.accept(ModBlocks.FOSSIL_ORE);
             event.accept(ModBlocks.CENTRIFUGE);
             event.accept(ModBlocks.FEEDER);

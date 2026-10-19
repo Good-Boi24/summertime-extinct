@@ -12,6 +12,12 @@
     "item.summertime_extinct.fossil_spinosaurus": "Neural Spine Fossil",
     "item.summertime_extinct.fossil_pelagornis": "Toothed Beak Fossil", 
     "item.summertime_extinct.fossil_hatzegopteryx": "Sturdy Neck Fossil",
+    
+    "item.summertime_extinct.crushedfossil_deinocheirus": "Crushed Claw Fossil",
+    "item.summertime_extinct.crushedfossil_shonisaurus": "Crushed Scleral Ring Fossil",
+    "item.summertime_extinct.crushedfossil_spinosaurus": "Crushed Neural Spine Fossil",
+    "item.summertime_extinct.crushedfossil_pelagornis": "Crushed Toothed Beak Fossil", 
+    "item.summertime_extinct.crushedfossil_hatzegopteryx": "Crushed Sturdy Neck Fossil",
 
     "block.summertime_extinct.centrifuge": "Centrifuge",
     "block.summertime_extinct.fossil_ore": "Fossil Ore",

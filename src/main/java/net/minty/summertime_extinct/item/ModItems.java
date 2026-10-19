@@ -21,8 +21,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> DNA_PELAGORNIS = ITEMS.register("dna_pelagornis",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> MANGO = ITEMS.register("mango",
             () -> new Item(new Item.Properties().food(ModFoods.MANGO)));
+
     public static final RegistryObject<Item> FOSSIL_DEINOCHEIRUS = ITEMS.register("fossil_deinocheirus",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FOSSIL_SHONISAURUS = ITEMS.register("fossil_shonisaurus",
@@ -32,6 +34,17 @@ public class ModItems {
     public static final RegistryObject<Item> FOSSIL_PELAGORNIS = ITEMS.register("fossil_pelagornis",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FOSSIL_HATZEGOPTERYX = ITEMS.register("fossil_hatzegopteryx",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRUSHEDFOSSIL_DEINOCHEIRUS = ITEMS.register("crushedfossil_deinocheirus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSIL_SHONISAURUS = ITEMS.register("crushedfossil_shonisaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSIL_SPINOSAURUS = ITEMS.register("crushedfossil_spinosaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSIL_PELAGORNIS = ITEMS.register("crushedfossil_pelagornis",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSIL_HATZEGOPTERYX = ITEMS.register("crushedfossil_hatzegopteryx",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
