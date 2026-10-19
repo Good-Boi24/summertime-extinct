@@ -13,6 +13,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> DNA_BOTTLE = ITEMS.register("dna_bottle",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MANGO = ITEMS.register("mango",
+            () -> new Item(new Item.Properties().food(ModFoods.MANGO)));
     public static final RegistryObject<Item> FOSSIL_DEINOCHEIRUS = ITEMS.register("fossil_deinocheirus",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FOSSIL_SHONISAURUS = ITEMS.register("fossil_shonisaurus",

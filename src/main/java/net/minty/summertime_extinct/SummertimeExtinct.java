@@ -30,6 +30,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.minty.summertime_extinct.block.ModBlocks;
 import org.slf4j.Logger;
+import net.minty.summertime_extinct.item.ModFoods;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(SummertimeExtinct.MODID)
@@ -67,6 +68,7 @@ public class SummertimeExtinct
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DNA_BOTTLE);
+            event.accept(ModItems.MANGO);
             event.accept(ModItems.FOSSIL_DEINOCHEIRUS);
             event.accept(ModItems.FOSSIL_SHONISAURUS);
             event.accept(ModItems.FOSSIL_SPINOSAURUS);
