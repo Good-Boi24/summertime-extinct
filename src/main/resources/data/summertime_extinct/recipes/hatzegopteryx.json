@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "summertime_extinct:crushedfossil_hatzegopteryx"
+        }
+    },
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "result": {
+        "item": "summertime_extinct:crushedfossilpile_hatzegopteryx",
+        "count": 1
+    }
+}

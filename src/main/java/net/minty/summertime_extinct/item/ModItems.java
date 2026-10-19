@@ -47,6 +47,17 @@ public class ModItems {
     public static final RegistryObject<Item> CRUSHEDFOSSIL_HATZEGOPTERYX = ITEMS.register("crushedfossil_hatzegopteryx",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CRUSHEDFOSSILPILE_DEINOCHEIRUS = ITEMS.register("crushedfossilpile_deinocheirus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSILPILE_SHONISAURUS = ITEMS.register("crushedfossilpile_shonisaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSILPILE_SPINOSAURUS = ITEMS.register("crushedfossilpile_spinosaurus",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSILPILE_PELAGORNIS = ITEMS.register("crushedfossilpile_pelagornis",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRUSHEDFOSSILPILE_HATZEGOPTERYX = ITEMS.register("crushedfossilpile_hatzegopteryx",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

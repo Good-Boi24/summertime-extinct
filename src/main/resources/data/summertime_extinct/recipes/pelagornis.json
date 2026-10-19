@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
         "#": {
-            "item": "minecraft:bone"
+            "item": "summertime_extinct:crushedfossil_pelagornis"
         }
     },
     "pattern": [
@@ -11,7 +11,7 @@
         "###"
     ],
     "result": {
-        "item": "summertime_extinct:fossil_deinocheirus",
+        "item": "summertime_extinct:crushedfossilpile_pelagornis",
         "count": 1
     }
 }
